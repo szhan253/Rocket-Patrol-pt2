@@ -23,12 +23,12 @@ class Rocket extends Phaser.GameObjects.Sprite {
             this.isFiring = true;
             this.sfxRocket.play();
         }
-        // if fired, move up
+        // if fired, move down
         if(this.isFiring && this.y >= borderUISize * 3 + borderPadding) {
-            this.y -= this.moveSpeed;
+            this.y += this.moveSpeed;
         }
         // reset on miss
-        if(this.y <= borderUISize * 3 + borderPadding) {
+        if(this.y >= borderUISize * 3 + borderPadding + 320) {
             this.reset();
         }
     }
@@ -36,6 +36,6 @@ class Rocket extends Phaser.GameObjects.Sprite {
     // reset rocket to "ground"
     reset() {
         this.isFiring = false;
-        this.y = game.config.height - borderUISize - borderPadding;
+        this.y = game.config.height - borderUISize - borderPadding -330;
     }
 }
