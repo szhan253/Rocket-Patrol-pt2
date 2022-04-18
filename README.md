@@ -1,7 +1,8 @@
 # Balloon Explode
 This is a small game homework for CMPM120 and done based on the tutorial: 
-`http://ex-artist.com/CMPM120/Tutorials/Phaser%203%20Rocket%20Patrol%20Tutorial.html`  
-
+```
+http://ex-artist.com/CMPM120/Tutorials/Phaser%203%20Rocket%20Patrol%20Tutorial.html
+```
 Compare to the original game from the tutorial, the UI changed. There is also another player added that makes there are two players who can play simultaneously. Keypress way also changed based on different players. Additionally, a new balloon moves faster and has a higher score added.
 ## Playable Link
 ```
@@ -13,11 +14,9 @@ https://github.com/nathanaltice/RocketPatrol
 ```
 ## Points Breakdown for Assignment
 ```
-<ol>
-  <li>Redesign the game's artwork, UI, and sound to change its theme/aesthetic (to something other than sci-fi) (60)</li>
-  <li>Create a new spaceship type (w/ new artwork) that's smaller, moves faster, and is worth more points (20)</li>
-  <li>Implement a simultaneous two-player mode (30)</li>
-</ol>
+1. Redesign the game's artwork, UI, and sound to change its theme/aesthetic (to something other than sci-fi) (60)  
+2. Create a new spaceship type (w/ new artwork) that's smaller, moves faster, and is worth more points (20)  
+3. Implement a simultaneous two-player mode (30)  
 ```
 ## Sound Source: 
 ```
