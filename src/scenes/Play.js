@@ -1,3 +1,8 @@
+/*******************************************************************
+  Name: Siyi Zhang
+  CruzId: szhan253
+  Project Name: Balloon Explode
+********************************************************************/
 class Play extends Phaser.Scene {
     constructor() {
         super("playScene");
