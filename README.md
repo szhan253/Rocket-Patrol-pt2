@@ -1,4 +1,4 @@
-# Ballon Explode
+# Balloon Explode
 This is a small game homework for CMPM120 and done based on the tutorial: 
 ```
 http://ex-artist.com/CMPM120/Tutorials/Phaser%203%20Rocket%20Patrol%20Tutorial.html
